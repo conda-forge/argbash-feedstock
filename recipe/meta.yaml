@@ -1,5 +1,5 @@
 {% set name = "argbash" %}
-{% set version = "2.10.0" %}
+{% set version = "2.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/matejak/argbash/archive/refs/tags/{{ version }}.tar.gz
-  sha256: ea527028313a5189803f4d2db3245425a82445fdb833f53352072e119c172313
+  sha256: a749518116624e0ff1f71c9eadfd28e8580c3be6534446fbcd421ab6a67d453e
 
 build:
   skip: true  # [win]
